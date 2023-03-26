@@ -1,0 +1,1 @@
+import{a,a4 as t,i as _,y as s,o as l}from"./entry.7903f98a.js";const n={__name:"default",setup(d){return t({titleTemplate:"%s 🗡 Нож Дануолла"}),(e,o)=>(l(),_("main",null,[s(e.$slots,"default",{},void 0,!0)]))}},c=a(n,[["__scopeId","data-v-7cafa79d"]]);export{c as default};
