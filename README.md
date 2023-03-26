@@ -1,21 +1,23 @@
-# My Website
+# ДнД: Нож Дануолла
 
-My website made with [Content Wind](https://content-wind.nuxt.space).
+В этом репозитории находится сайт с правилами для моей кампании ДнД.
 
-## Setup
+## Запуск у себя
+
+### Установка зависимостей
 
 ```bash
 npm install
 ```
 
-## Development
+### Разработка
 
 ```bash
 npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) to see your app.
+Потом открыть [http://localhost:3000](http://localhost:3000).
 
-## Deployment
+### Размещение
 
-[Nuxt docs](https://nuxt.com/docs/getting-started/deployment)
+Следуйте [документации Nuxt.](https://nuxt.com/docs/getting-started/deployment)
