@@ -15,8 +15,6 @@ main {
 
 <style lang = "scss">
 
-@import url("~/assets/scss/fonts.scss");
-
 body {
     @apply bg-slate-100 transition-colors duration-500;
     @apply dark:bg-black dark:text-white;

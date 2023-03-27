@@ -1,8 +1,11 @@
 export default defineNuxtConfig({
 	target: "static",
 	ssr: true,
-	baseURL: "/dnd/",
 	extends: 'content-wind',
+
+	css: [
+		'~/assets/scss/fonts.scss'
+	],
 
 	head: {
 		htmlAttrs: {
@@ -13,4 +16,8 @@ export default defineNuxtConfig({
 		],
 		titleTemplate: "%s 🗡 Нож Дануолла"
 	},
+
+	app: {
+		baseURL: "/dnd/",
+	}
 })
