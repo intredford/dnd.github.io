@@ -1,1 +1,0 @@
-import{a as e,o,i as n,b as t}from"./entry.b1166559.js";const s=""+new URL("0o.0022945b.png",import.meta.url).href,c={},_=t("h1",{class:"text-2xl font-bold mb-4"}," 404: Страница не найдена ",-1),r=t("img",{src:s},null,-1),a=[_,r];function l(i,m){return o(),n("div",null,a)}const f=e(c,[["render",l]]);export{f as default};
