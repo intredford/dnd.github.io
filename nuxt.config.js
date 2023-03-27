@@ -11,6 +11,6 @@ export default defineNuxtConfig({
 		meta: [
 			{ charset: 'utf-8' }
 		],
-		// title: "%s 🗡 Нож Дануолла" — задан в ~layouts/default.vue
+		titleTemplate: "%s 🗡 Нож Дануолла"
 	},
 })

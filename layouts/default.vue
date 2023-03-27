@@ -4,12 +4,6 @@
     </main>
 </template>
 
-<script setup>
-useHead({
-    titleTemplate: '%s 🗡 Нож Дануолла'
-})
-</script>
-
 <style lang = "scss" scoped>
 
 main {
