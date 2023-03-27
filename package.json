@@ -6,7 +6,7 @@
     "build": "nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
-    "deploy": "npx gh-pages -d dist/public"
+    "deploy": "npx gh-pages -d dist"
   },
   "devDependencies": {
     "content-wind": "latest",
