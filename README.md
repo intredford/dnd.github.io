@@ -16,8 +16,9 @@ npm install
 npm run dev
 ```
 
-Потом открыть [http://localhost:3000](http://localhost:3000).
+Потом открыть [http://localhost:3000/dnd](http://localhost:3000)
 
 ### Размещение
 
 Следуйте [документации Nuxt.](https://nuxt.com/docs/getting-started/deployment)
+**ПРИ РАЗМЕЩЕНИИ НА GITHUB PAGES НАДО СОЗДАТЬ ФАЙЛ `.nojekyll` В РАЗДЕЛЕ `gh-pages`!!**
