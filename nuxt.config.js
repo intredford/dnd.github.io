@@ -14,6 +14,13 @@ export default defineNuxtConfig({
 		meta: [
 			{ charset: 'utf-8' }
 		],
+		link: [
+			{ 
+				rel: 'icon',
+				type: 'image/png',
+				href: `${process.env.BASE_URL}favicon.ico` 
+			}
+		],
 		titleTemplate: "%s 🗡 Нож Дануолла"
 	},
 
