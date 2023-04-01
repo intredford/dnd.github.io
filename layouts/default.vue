@@ -7,7 +7,7 @@
 <style lang = "scss" scoped>
 
 main {
-    @apply max-w-2xl px-4 pt-8 pb-16 mx-auto rounded-[2.4rem] rounded-b-none shadow-sm bg-white transition-colors duration-500;
+    @apply max-w-2xl px-4 pt-8 pb-16 mx-auto relative rounded-[2.4rem] rounded-b-none shadow-sm bg-white transition-colors duration-500;
     @apply sm:rounded-b-[2rem] sm:px-8 sm:pb-10;
     @apply dark:bg-slate-800;
 }
