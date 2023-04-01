@@ -1,0 +1,11 @@
+# Markdown
+*.md linguist-vendored=false
+*.md linguist-generated=false
+*.md linguist-documentation=false
+*.md linguist-detectable=true
+
+# YAML
+*.y*ml linguist-vendored=false
+*.y*ml linguist-generated=false
+*.y*ml linguist-documentation=false
+*.y*ml linguist-detectable=true
