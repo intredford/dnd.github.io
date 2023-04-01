@@ -1,15 +1,15 @@
 <template>
 
     <section class = "spell">
-        <h1 class = "spell-name">
-            <ContentSlot :use="$slots.name" unwrap="p" />
-        </h1>
-        <p class = "spell-properties">
+        <div class = "spell-name">
+            <ContentSlot :use="$slots.name" unwrap="div" />
+        </div>
+        <div class = "spell-properties">
             <ContentSlot :use="$slots.properties" unwrap="p" />
-        </p>
-        <p class = "spell-description">
+        </div>
+        <div class = "spell-description">
             <ContentSlot :use="$slots.description" unwrap="p" />
-        </p>
+        </div>
 
         <div class = "spell-description" v-if = "$slots.level1">
             <h2 class = "spell-level">
