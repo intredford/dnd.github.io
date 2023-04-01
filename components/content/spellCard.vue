@@ -1,9 +1,9 @@
 <template>
 
     <section class = "spell">
-        <h2 class = "spell-name">
+        <h1 class = "spell-name">
             <ContentSlot :use="$slots.name" unwrap="p" />
-        </h2>
+        </h1>
         <p class = "spell-properties">
             <ContentSlot :use="$slots.properties" unwrap="p" />
         </p>
@@ -12,21 +12,21 @@
         </p>
 
         <div class = "spell-description" v-if = "$slots.level1">
-            <h3 class = "spell-level">
+            <h2 class = "spell-level">
                 На 1 круге:
-            </h3>
+            </h2>
             <ContentSlot :use="$slots.level1" unwrap="p" />
         </div>
         <div class = "spell-description" v-if = "$slots.level2">
-            <h3 class = "spell-level">
+            <h2 class = "spell-level">
                 На 2 круге:
-            </h3>
+            </h2>
             <ContentSlot :use="$slots.level2" unwrap="p" />
         </div>
         <div class = "spell-description" v-if = "$slots.level3">
-            <h3 class = "spell-level">
+            <h2 class = "spell-level">
                 На 3 круге:
-            </h3>
+            </h2>
             <ContentSlot :use="$slots.level3" unwrap="p" />
         </div>
     </section>
