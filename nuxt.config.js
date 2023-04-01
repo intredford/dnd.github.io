@@ -18,6 +18,6 @@ export default defineNuxtConfig({
 	},
 
 	app: {
-		baseURL: "/dnd/",
+		baseURL: process.env.BASE_URL
 	}
 })
