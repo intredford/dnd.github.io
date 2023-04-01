@@ -9,7 +9,7 @@ navigation.title: 'Заклинания'
 ---
 title: Все заклинания
 lead: Всё на одной странице
-href: /mechanics/spells/all
+href: /spells/all
 icon: ph:squares-four-duotone
 ---
 ::
@@ -19,7 +19,7 @@ icon: ph:squares-four-duotone
 ---
 title: Перенос
 lead: Бонусное, откат 1
-href: /mechanics/spells/blink
+href: /spells/blink
 icon: ph:arrow-fat-lines-right-duotone
 ---
 ::
@@ -28,7 +28,7 @@ icon: ph:arrow-fat-lines-right-duotone
 ---
 title: Притяжение
 lead: Бонусное, откат 1
-href: /mechanics/spells/reach
+href: /spells/reach
 icon: ph:arrow-bend-double-up-right-duotone
 ---
 ::
@@ -38,7 +38,7 @@ icon: ph:arrow-bend-double-up-right-duotone
 ---
 title: Доппельгангер
 lead: Основное, концентрация
-href: /mechanics/spells/doppelganger
+href: /spells/doppelganger
 icon: ph:users-duotone
 ---
 ::
@@ -46,7 +46,7 @@ icon: ph:users-duotone
 ---
 title: Вселение
 lead: Основное
-href: /mechanics/spells
+href: /spells
 icon: ph:unite-square-duotone
 ---
 ::
@@ -54,7 +54,7 @@ icon: ph:unite-square-duotone
 ---
 title: Глаза бездны
 lead: Основное, концентрация
-href: /mechanics/spells
+href: /spells
 icon: ph:eye-duotone
 ---
 ::
@@ -64,7 +64,7 @@ icon: ph:eye-duotone
 ---
 title: Домино
 lead: Основное, концентрация
-href: /mechanics/spells
+href: /spells
 icon: ph:users-duotone
 ---
 ::
@@ -74,7 +74,7 @@ icon: ph:users-duotone
 ---
 title: Изгиб времени
 lead: Основное, концентрация
-href: /mechanics/spells
+href: /spells
 icon: ph:clock-countdown-duotone
 ---
 ::
