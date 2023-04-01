@@ -18,13 +18,13 @@ export default defineNuxtConfig({
 			{ 
 				rel: 'icon',
 				type: 'image/png',
-				href: `${process.env.NUXT_BASE_URL}favicon.ico` 
+				href: `/dnd/favicon.ico` 
 			}
 		],
 		titleTemplate: "%s 🗡 Нож Дануолла"
 	},
 
 	app: {
-		baseURL: process.env.NUXT_BASE_URL
+		baseURL: '/dnd/'
 	}
 })
