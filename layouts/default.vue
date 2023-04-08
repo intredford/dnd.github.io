@@ -37,4 +37,8 @@ code {
     font-weight: inherit !important;
 }
 
+img {
+    @apply rounded-md;
+}
+
 </style>
