@@ -7,7 +7,7 @@
     "build": "nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
-    "deploy": "npx gh-pages --dist dist --repo https://github.com/intredford/dnd"
+    "deploy": "gh-pages --dist dist --repo https://github.com/intredford/dnd"
   },
   "devDependencies": {
     "@nuxt-themes/docus": "^1.12.1",
