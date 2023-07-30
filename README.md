@@ -1,57 +1,23 @@
-# Docus Starter
+# DnD: Нож Дануолла
 
-Starter template for [Docus](https://docus.dev).
+Сайт с правидами для моей кампании.
 
-## Clone
+## Разработка
 
-Clone the repository (using `nuxi`):
-
-```bash
-npx nuxi init -t themes/docus
-```
-
-## Setup
-
-Install dependencies:
+Установите зависимости:
 
 ```bash
-yarn install
+npm install
 ```
 
-## Development
+Запустите сервер:
 
 ```bash
-yarn dev
+npm run dev
 ```
-
-## Edge Side Rendering
-
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
-
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
-
-```bash
-yarn build
-```
-
-## Static Generation
-
-Use the `generate` command to build your application.
-
-The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
-
-```bash
-yarn generate
-```
-
-## Preview build
-
-You might want to preview the result of your build locally, to do so, run the following command:
-
-```bash
-yarn preview
-```
+## Деплой
+При деплое на Github Pages создайте файл .nojekyll в корне проекта.
 
 ---
 
-For a detailed explanation of how things work, check out [Docus](https://docus.dev).
+Сделано на основе [Docus](https://docus.dev).
